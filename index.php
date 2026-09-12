@@ -234,6 +234,7 @@ $category_order = ['All', 'Hair', 'Fragrance', 'Jewelry', 'Bundles'];
     
     <div class="ritual-toast" id="ritual-toast" role="status" aria-live="polite"></div>
     <script>window.MARIORK_CUSTOMER_LOGGED_IN = <?= !empty($_SESSION['customer_id']) ? 'true' : 'false' ?>;</script>
+    <script src="button-feedback.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
